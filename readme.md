@@ -4,7 +4,7 @@
 
 This API can be used as a placeholder that allows you to resize an image's width and height based on url parameters.
 
-### Project bulid depended on
+### Project build depended on
 
 1. [TypeScript] (https://www.typescriptlang.org/docs/)
 2. [Node.JS] (https://nodejs.org/dist/latest-v16.x/docs/api/)
