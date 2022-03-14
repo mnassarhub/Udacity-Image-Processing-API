@@ -25,21 +25,6 @@ This API can be used as a placeholder that allows you to resize an image's width
 **Project Structure.**
 
 ```
-build
-    appFunction
-        app.js
-        getMetaData.js
-        resizeFunction.js
-    Routes
-        router.js
-    tests
-        helpers
-            reporter.js
-        app.Spec.js
-        getMetaData.Spec.js
-        resizeFunction.Spec.js
-        server.Spec.js
-    server.js
 images
 node_modules
 resizedImages
