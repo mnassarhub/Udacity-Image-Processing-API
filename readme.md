@@ -12,7 +12,7 @@ This API can be used as a placeholder that allows you to resize an image's width
 4. [fs-extra] (https://www.npmjs.com/package/fs-extra)
 5. [Sharp] (https://www.npmjs.com/package/sharp)
 
-### For Fixing and Formating Code
+### For Fixing and Formatting Code
 
 1. [ESLint] (https://eslint.org/docs/user-guide/getting-started)
 2. [Prettier] (https://prettier.io/docs/en/index.html)
