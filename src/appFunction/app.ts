@@ -38,8 +38,8 @@ mainAPI.get(
           `./../../resizedImages/${name}_w${width}px_h${height}px.${formats[i]}`
       );
 
-      console.log(imageFullPath);
-      console.log(resizedImageFullPath);
+      // console.log(imageFullPath);
+      // console.log(resizedImageFullPath);
 
       // Validating Image Name
       if (fsExtra.existsSync(imageFullPath)) {
