@@ -1,6 +1,7 @@
 // Import Express And Routes Module
 import express, { Application, Request, Response } from 'express';
 import routes from './Routes/router';
+import dotenv from 'dotenv';
 
 const app: Application = express();
 
@@ -65,7 +66,10 @@ app.get('/', (req: Request, res: Response): void => {
 app.use(routes);
 
 // Set Server Configuration
-const port = process.env.Port || 3000;
+dotenv.config();
+
+const port = parseInt(process.env.Port as string, 10) || 3000;
+
 app.listen(port, (): void =>
   console.log(`Server Running On Port: HTTP://localhost:${port}`)
 );
